@@ -15,6 +15,15 @@ env:
     - SMALLTALK="Pharo-4.0"
     - SMALLTALK="Pharo-3.0"
 
+    - SMALLTALK=GemStone-3.2.7
+    - SMALLTALK=GemStone-3.2.0
+    - SMALLTALK=GemStone-3.1.0.6
+    - SMALLTALK=GemStone-3.1.0.2
+    - SMALLTALK=GemStone-3.0.1
+    - SMALLTALK=GemStone-2.4.6
+    - SMALLTALK=GemStone-2.4.5
+    - SMALLTALK=GemStone-2.4.4.1
+
 addons:
   apt:
     packages:
