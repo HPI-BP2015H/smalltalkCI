@@ -1,4 +1,4 @@
-sudo: false
+sudo: true
 
 env:
   global:
@@ -14,10 +14,6 @@ env:
     - SMALLTALK="Pharo-5.0"
     - SMALLTALK="Pharo-4.0"
     - SMALLTALK="Pharo-3.0"
-
-os:
-  - linux
-  - osx
 
 addons:
   apt:
