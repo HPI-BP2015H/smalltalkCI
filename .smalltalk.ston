@@ -8,7 +8,13 @@ SmalltalkCISpec {
   ],
   #testing : {
     #coverageAgainst : {
-      #categories : [ 'SmalltalkCI-*' ]
+      #categories : [
+        'SmalltalkCI-Core',
+        'SmalltalkCI-GemStone',
+        'SmalltalkCI-GemStone-Report',
+        'SmalltalkCI-Pharo',
+        'SmalltalkCI-Squeak',
+        'STON-Core']
     },
     #exclude : {
       #classes : [ #SCIExcludedTests ]
